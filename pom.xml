@@ -18,7 +18,7 @@
         <module>trbot-applinterface</module>
         <module>trbot-Manage</module>
         <module>trbot-mode</module>
-        <module>trbot-strategie</module>
+        <module>trbot-trade</module>
     </modules>
 
     <properties>

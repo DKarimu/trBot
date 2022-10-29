@@ -147,26 +147,48 @@ trBot (trading Bot) is simple trading bot for eny trading market using java...!
   │   	    │               └── TestBotsManager.java
   │   	    └── resources
   │   	        └── StrategerResources.resour
-  ├── trbot-strategie
+  ├── trbot-trade
   │	└──	src
   │   	├── main
   │   	│   ├── java
   │   	│   │   └── com
   │   	│   │       └── trbot
-  │   	│   │           └── strategies
-  │   	│   │               ├── Strateger.java
-  │   	│   │               └── ManaStrategerger.java
+  │   	│   │           └── trades
+  │   	│   │               ├── strategy
+  │   	│   │               │   ├── StrategyToUseSg01.java
+  │   	│   │               │   ├── StrategyToUseSg02.java
+  │   	│   │               │   └── StrategyToUseSg031.java
+  │   	│   │               ├── brokers
+  │   	│   │               │   ├── BrokerToCallBk01.java
+  │   	│   │               │   ├── BrokerToCallBk02.java
+  │   	│   │               │   └── BrokerToCallBk03.java
+  │   	│   │               ├── indexes
+  │   	│   │               │   ├── IndexRSI.java
+  │   	│   │               │   ├── IndexAMI.java
+  │   	│   │               │   └── IndexUtil.java
+  │   	│   │               └── TradeManager.java
   │   	│   └── resources
   │   	│       └── StrategerResources.resour
   │   	└── test
   │   	    ├── java
   │   	    │   └── com
   │   	    │       └── trbot
-  │   	    │           └── strategies
-  │   	    │               ├── TestStrateger.java
-  │   	    │               └── TestStrateger.java
+  │   	    │           └── trades
+  │   	    │               ├── strategy
+  │   	    │               │   ├── TestStrategyToUseSg01.java
+  │   	    │               │   ├── TestStrategyToUseSg02.java
+  │   	    │               │   └── TestStrategyToUseSg031.java
+  │   	    │               ├── brokers
+  │   	    │               │   ├── TestBrokerToCallBk01.java
+  │   	    │               │   ├── TestBrokerToCallBk02.java
+  │   	    │               │   └── TestBrokerToCallBk03.java
+  │   	    │               ├── indexes
+  │   	    │               │   ├── TestIndexRSI.java
+  │   	    │               │   ├── TestIndexAMI.java
+  │   	    │               │   └── TestIndexUtil.java
+  │   	    │               └── TestTradeManager.java
   │   	    └── resources
-  │   	        └── StrategerResources.resour
+  │   	        └── TestStrategerResources.resour
   ├── trbot-enumeration
   │	└──	src
   │   	├── main
