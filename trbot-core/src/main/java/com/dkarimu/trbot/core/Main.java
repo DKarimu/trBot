@@ -1,4 +1,4 @@
-package com.dkarimu.trbot.manage;
+package com.dkarimu.trbot.core;
 
 public class Main {
   public static void main(String[] args) {

@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dkarimu.trbot.Manage</groupId>
-    <artifactId>trbot-manage</artifactId>
+    <groupId>com.dkarimu.trbot.core</groupId>
+    <artifactId>trbot-core</artifactId>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>

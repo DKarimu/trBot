@@ -1,0 +1,252 @@
+structure
+trbot
+├── trbot-application
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── application
+│   	│   │               ├── TrBot.java
+│   	│   │               └── config
+│   	│   │                   ├── LogerManager.java
+│   	│   │                   ├── BrockerManager.java
+│   	│   │                   └── Manager.java
+│   	│   └── resources
+│   	│       └── banner.txt
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── application
+│   	    │               ├── TestTrBot.java
+│   	    │               └── config
+│   	    │                   ├── TestLogerManager.java
+│   	    │                   ├── TestBrockerManager.java
+│   	    │                   └── TestManager.java
+│   	    └── resources
+│   	        └── log4j2-test.xml
+├── trbot-core
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── core
+│   	│   │               ├── System
+│   	│   │           	│   └── SystemConfigSetup.java
+│   	│   │           	└── Managers
+│   	│   │           	    ├── DataManager.java
+│   	│   │           	    ├── NotificationManager.java
+│   	│   │           	    └── BotManager.java
+│   	│   └── resources
+│   	│       └── StrategerResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── core
+│   	    │               ├── System
+│   	    │           	│   └── SystemConfigSetup.java
+│   	    │           	└── Managers
+│   	    │           	    ├── DataManager.java
+│   	    │           	    ├── NotificationManager.java
+│   	    │           	    └── BotManager.java
+│   	    └── resources
+│   	        └── core.resour
+├── trbot-mode
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── modes
+│   	│   │               ├── LiveMode.java
+│   	│   │               ├── SimulationMode.java
+│   	│   │               ├── BacktestingMode.java
+│   	│   │               └── ClusterMode.java
+│   	│   └── resources
+│   	│       └── ModeResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── modes
+│   	    │               ├── TestLiveMode.java
+│   	    │               ├── TestSimulationMode.java
+│   	    │               ├── TestBacktestingMode.java
+│   	    │               └── TestClusterMode.java
+│   	    └── resources
+│   	        └── ModeResources.resour
+├── trbot-configuration
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── configurations
+│   	│   │               ├── ModeConfigure.java
+│   	│   │               ├── DatabaseConfigure.java
+│   	│   │               ├── TradingConfigure.java
+│   	│   │               ├── ApplicationConfigure.java
+│   	│   │               ├── NotifactionConfigure.java
+│   	│   │               └── StrategieConfigure.java
+│   	│   └── resources
+│   	│       └── ConfigureResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── configurations
+│   	    │               ├── TestModeConfigure.java
+│   	    │               ├── TestDatabaseConfigure.java
+│   	    │               ├── TestTradingConfigure.java
+│   	    │               ├── TestApplicationConfigure.java
+│   	    │               ├── TestNotifactionConfigure.java
+│   	    │               └── TestStrategieConfigure.java
+│   	    └── resources
+│   	        └── ConfigureResources.resour
+├── trbot-formation
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── formations
+│   	│   │               ├── DataFormatter.java
+│   	│   │               ├── DateTimeFormatter.java
+│   	│   │               ├── LogFormatter.java
+│   	│   │               ├── NotifactionFormatter.java
+│   	│   │               └── initialisation
+│   	│   │                   └── DateTimeInitializer.java
+│   	│   └── resources
+│   	│       └── InitialisatioResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── formations
+│   	    │               ├── TestDataFormatter.java
+│   	    │               ├── TestDateTimeFormatter.java
+│   	    │               ├── TestLogFormatter.java
+│   	    │               ├── NotifactionFormatter.java
+│   	    │               └── initialisation
+│   	    │                   └── TestDateTimeInitialisation.java
+│   	    └── resources
+│   	        └── InitialisatioResources.resour
+├── trbot-strategie
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── strategies
+│   	│   │               ├── Strateger.java
+│   	│   │               └── ManaStrategerger.java
+│   	│   └── resources
+│   	│       └── StrategerResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── strategies
+│   	    │               ├── TestStrateger.java
+│   	    │               └── TestStrateger.java
+│   	    └── resources
+│   	        └── StrategerResources.resour
+├── trbot-enumeration
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── enumerations
+│   	│   │               └── Enumerator.java
+│   	│   └── resources
+│   	│       └── EnumeratorResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── enumerations
+│   	    │               └── TestEnumerator.java
+│   	    └── resources
+│   	        └── EnumeratorResources.resour
+├── trbot-interface
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── applinterface
+│   	│   │               └── applinterface .java
+│   	│   └── resources
+│   	│       └── InterfaceResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── applinterface
+│   	    │               └── TesApplinterface .java
+│   	    └── resources
+│   	        └── InterfaceResources.resour
+├── trbot-data
+│	└──	src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── data
+│   	│   │               ├── DataReader.java
+│   	│   │               ├── DataWriter.java
+│   	│   │               └── setting
+│   	│   │                   ├── DataReaderSetting.java
+│   	│   │                   ├── DataWriterSetting.java
+│   	│   │                   └── DataBaseSetting.java
+│   	│   │
+│   	│   └── resources
+│   	│       └── DbResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── data
+│   	    │               ├── TestDataReader.java
+│   	    │               ├── TestDataWriter.java
+│   	    │               └── setting
+│   	    │                   ├── TestDataReaderSetting.java
+│   	    │                   ├── TestDataWriterSetting.java
+│   	    │                   └── TestDataBaseSetting.java
+│   	    └── resources
+│   	        └── DbResources.resour
+├── trbot-exceptionhandl
+│	└── src
+│   	├── main
+│   	│   ├── java
+│   	│   │   └── com
+│   	│   │       └── trbot
+│   	│   │           └── exceptionhandl
+│   	│   │               ├── exceptionHandler.java
+│   	│   │               └── exceptionResolver.java
+│   	│   └── resources
+│   	│       └── DbResources.resour
+│   	└── test
+│   	    ├── java
+│   	    │   └── com
+│   	    │       └── trbot
+│   	    │           └── exceptionhandl
+│   	    │               ├── TestExceptionHandler.java
+│   	    │               ├── TestExceptionHandler.java
+│   	    │               └── TestExceptionHandler.java
+│   	    │                   ├── TestDataReaderSetting.java
+│   	    │                   └── TestDataBaseSetting.java
+│   	    └── resources
+│   	        └── DbResources.resour
+├── configuration
+│   ├── notification-setting.txt(yml)
+│   ├── data-base.txt(yml)
+│   ├── applications-interface.txt(yml)
+│   └── trading-indexs.txt(yml)
+├── logs
+│   └── date_time_formation.lgo
+└── readme.md

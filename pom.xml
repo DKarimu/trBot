@@ -16,9 +16,10 @@
         <module>trbot-exceptionhandl</module>
         <module>trbot-formation</module>
         <module>trbot-applinterface</module>
-        <module>trbot-Manage</module>
+        <module>trbot-core</module>
         <module>trbot-mode</module>
         <module>trbot-trade</module>
+        <module>trbot-core</module>
     </modules>
 
     <properties>
