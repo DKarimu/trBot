@@ -9,7 +9,7 @@ trBot (trading Bot) is simple trading bot for eny trading market using java...!
 - trbot-exceptionhandl 
 - trbot-formation 
 - trbot-applinterface 
-- trbot-Manage 
+- trbot-Core
 - trbot-mode 
 - trbot-trade
 #### -- - trBot Structure
