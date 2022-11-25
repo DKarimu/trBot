@@ -17,13 +17,12 @@ externSystem:
     # https://coincheck.com/documents/exchange/api
     # if you api authentication don necessitate an clientId then sett it to NON
     authenticationConfig:
-      clientId: NON
+      clientId: NONE
       key: your-api-key
       secret: your-secret-key
   networkConfig:
     # This value is in SECONDS. It is the timeout value that the exchange adapter will wait on socket connect/socket read
     connectionTimeout: 30
-    # Optional HTTP status codes that will trigger the adapter to throw a non-fatal ExchangeNetworkException
     # if the exchange returns any of the below in an API call response:
     nonFatalErrorCodes: [502, 503, 504, 520, 522, 525]
     # Optional java.io exception messages that will trigger the adapter to throw a non-fatal ExchangeNetworkException
